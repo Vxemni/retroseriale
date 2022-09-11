@@ -1,0 +1,188 @@
+body {
+	background-color: #A68B6A;
+	color: #F2ECE4;
+	font-family: 'Andika New Basic', sans-serif;
+	font-size: 20px;
+	margin: 0 !important;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+	padding: 40px 0;
+}
+
+.logo {
+	width: 450px;
+	font-size: 48px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img {
+	height: 110px;
+}
+
+.tekst {
+	margin-top: 20px;
+}
+
+.nav {
+	width: 100%;
+	padding: 10px 0;
+	background-color: #858C74;
+	text-align: center;
+	border-top: 1px solid #363B2A;
+	border-bottom: 1px solid #363B2A;
+}
+
+.content {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding-top: 10px;
+}
+
+.socjals {
+	width: 100%;
+	text-align: center;
+	background-color: #594839;
+}
+
+.socjaldivs {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.fb {
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.yt {
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.tw {
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.gplus {
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.fb:hover {
+	background-color: #4668b3;
+}
+
+.yt:hover {
+	background-color: #d94348;
+}
+
+.tw:hover {
+	background-color: #3095d3;
+}
+
+.gplus:hover {
+	background-color: #d95333;
+}
+
+.footer {
+	text-align: center;
+	background-color: #483728;
+	padding: 30px;
+}
+
+.sticky {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+
+ol {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+}
+
+ol a {
+	text-decoration: none;
+	color: #261514;
+	display: block;
+}
+
+ol > li {
+	float: left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #363B2A;
+}
+
+ol {
+	display: inline-block;
+}
+
+ol > li:first-child {
+	border-left: 1px dashed #363B2A;
+}
+
+ol > li:hover {
+	background-color: #363B2A;
+}
+
+ol > li:hover > a {
+	color: #F2ECE4;
+}
+
+ol > li > ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+}
+
+ol > li > ul > li {
+	background-color: #363B2A;
+	line-height: 160%;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #8EA35B;
+
+}
+
+ol > li > ul > li > a {
+	color: white;
+}
+
+ol > li > ul > li:hover {
+	background-color: #556137;
+}
+
+ol > li > ul > li:hover > a {
+	color: #261514;
+}
+
+ol > li > ul {
+	display: none;
+}
+
+ol > li:hover > ul {
+	display: block;
+}
